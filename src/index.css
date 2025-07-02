@@ -1,0 +1,136 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #F5F5F5;
+  font-family: 'Inter', sans-serif;
+}
+
+.canvas-container {
+  border: 3px solid #FF0000;
+  border-radius: 8px;
+  background: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.canvas-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.1) 50%, transparent 70%);
+  pointer-events: none;
+}
+
+.tool-panel {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #E5E5E5;
+}
+
+.shape-item:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #FF0000, #FF4444);
+  color: white;
+}
+
+.layer-item {
+  background: white;
+  border: 1px solid #E5E5E5;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.layer-item:hover {
+  border-color: #FF0000;
+  box-shadow: 0 2px 4px rgba(255, 0, 0, 0.1);
+}
+
+.generate-btn {
+  background: linear-gradient(135deg, #FF0000, #FF4444);
+  position: relative;
+  overflow: hidden;
+}
+
+.generate-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.generate-btn:hover::before {
+  left: 100%;
+}
+
+.Toastify__toast-container {
+  font-family: 'Inter', sans-serif;
+}
+
+.Toastify__toast {
+  border-radius: 8px;
+  font-size: 0.875rem;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #00C851, #00E676);
+  color: white;
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #FF3547, #FF5722);
+  color: white;
+}
+
+.Toastify__toast--info {
+  background: linear-gradient(135deg, #33B5E5, #2196F3);
+  color: white;
+}
+
+.Toastify__progress-bar {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.template-card {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.template-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 0, 0, 0.15);
+}
+
+.ai-result-card {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.ai-result-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 212, 255, 0.2);
+}

@@ -1,0 +1,686 @@
+[
+  {
+    "Id": 1,
+    "name": "Gaming Highlight",
+    "category": "Gaming",
+    "description": "Perfect for gaming content with bold text and dynamic background",
+    "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-1",
+        "type": "image",
+        "content": {
+          "url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=1280&h=720&fit=crop&crop=entropy&auto=format",
+          "alt": "Gaming background"
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "title-1",
+        "type": "text",
+        "content": {
+          "text": "EPIC GAMEPLAY",
+          "fontSize": 72,
+          "fontFamily": "Bebas Neue",
+          "color": "#FFFFFF",
+          "bold": true,
+          "italic": false,
+          "outline": true,
+          "outlineColor": "#000000",
+          "outlineWidth": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8,
+          "shadowOffset": { "x": 4, "y": 4 }
+        },
+        "position": { "x": 100, "y": 50 },
+        "size": { "width": 800, "height": 100 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "name": "Vlog Adventure",
+    "category": "Vlog",
+    "description": "Personal vlog template with warm colors and friendly text",
+    "thumbnail": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-2",
+        "type": "image",
+        "content": {
+          "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1280&h=720&fit=crop&crop=entropy&auto=format",
+          "alt": "Adventure background"
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "title-2",
+        "type": "text",
+        "content": {
+          "text": "My Adventure Story",
+          "fontSize": 56,
+          "fontFamily": "Inter",
+          "color": "#FFFFFF",
+          "bold": true,
+          "italic": false,
+          "outline": true,
+          "outlineColor": "#FF6B35",
+          "outlineWidth": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 6,
+          "shadowOffset": { "x": 3, "y": 3 }
+        },
+        "position": { "x": 80, "y": 500 },
+        "size": { "width": 600, "height": 80 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "name": "Tutorial Master",
+    "category": "Tutorial",
+    "description": "Clean and professional template for educational content",
+    "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-3",
+        "type": "shape",
+        "content": {
+          "shapeType": "rectangle",
+          "width": 1280,
+          "height": 720,
+          "fill": "#2563EB",
+          "stroke": "#1E40AF",
+          "strokeWidth": 0,
+          "opacity": 1
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "title-3",
+        "type": "text",
+        "content": {
+          "text": "HOW TO TUTORIAL",
+          "fontSize": 64,
+          "fontFamily": "Bebas Neue",
+          "color": "#FFFFFF",
+          "bold": true,
+          "italic": false,
+          "outline": false,
+          "outlineColor": "#000000",
+          "outlineWidth": 0,
+          "shadow": false,
+          "shadowColor": "#000000",
+          "shadowBlur": 0,
+          "shadowOffset": { "x": 0, "y": 0 }
+        },
+        "position": { "x": 200, "y": 300 },
+        "size": { "width": 880, "height": 120 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "name": "Tech Review",
+    "category": "General",
+    "description": "Modern tech-focused template with clean design",
+    "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-4",
+        "type": "image",
+        "content": {
+          "url": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=1280&h=720&fit=crop&crop=entropy&auto=format",
+          "alt": "Tech background"
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "overlay-4",
+        "type": "shape",
+        "content": {
+          "shapeType": "rectangle",
+          "width": 1280,
+          "height": 720,
+          "fill": "#000000",
+          "stroke": "#000000",
+          "strokeWidth": 0,
+          "opacity": 0.4
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      },
+      {
+        "id": "title-4",
+        "type": "text",
+        "content": {
+          "text": "TECH REVIEW",
+          "fontSize": 68,
+          "fontFamily": "Bebas Neue",
+          "color": "#00D4FF",
+          "bold": true,
+          "italic": false,
+          "outline": true,
+          "outlineColor": "#FFFFFF",
+          "outlineWidth": 2,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10,
+          "shadowOffset": { "x": 5, "y": 5 }
+        },
+        "position": { "x": 150, "y": 250 },
+        "size": { "width": 700, "height": 100 },
+        "rotation": 0,
+        "zIndex": 2,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "name": "Gaming Montage",
+    "category": "Gaming",
+    "description": "Action-packed template for gaming montages",
+    "thumbnail": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-5",
+        "type": "shape",
+        "content": {
+          "shapeType": "rectangle",
+          "width": 1280,
+          "height": 720,
+          "fill": "#FF0000",
+          "stroke": "#CC0000",
+          "strokeWidth": 0,
+          "opacity": 1
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "title-5",
+        "type": "text",
+        "content": {
+          "text": "INSANE MONTAGE",
+          "fontSize": 76,
+          "fontFamily": "Impact",
+          "color": "#FFFFFF",
+          "bold": true,
+          "italic": false,
+          "outline": true,
+          "outlineColor": "#000000",
+          "outlineWidth": 4,
+          "shadow": true,
+          "shadowColor": "#800000",
+          "shadowBlur": 12,
+          "shadowOffset": { "x": 6, "y": 6 }
+        },
+        "position": { "x": 120, "y": 280 },
+        "size": { "width": 1040, "height": 160 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "name": "Daily Vlog",
+    "category": "Vlog",
+    "description": "Casual and friendly template for daily vlogs",
+    "thumbnail": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-6",
+        "type": "image",
+        "content": {
+          "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1280&h=720&fit=crop&crop=entropy&auto=format",
+          "alt": "Daily life background"
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "title-6",
+        "type": "text",
+        "content": {
+          "text": "Day in My Life",
+          "fontSize": 48,
+          "fontFamily": "Inter",
+          "color": "#FFFFFF",
+          "bold": true,
+          "italic": false,
+          "outline": true,
+          "outlineColor": "#FF69B4",
+          "outlineWidth": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8,
+          "shadowOffset": { "x": 4, "y": 4 }
+        },
+        "position": { "x": 100, "y": 100 },
+        "size": { "width": 500, "height": 80 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "name": "Step-by-Step Guide",
+    "category": "Tutorial",
+    "description": "Instructional template with clear hierarchy",
+    "thumbnail": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-7",
+        "type": "shape",
+        "content": {
+          "shapeType": "rectangle",
+          "width": 1280,
+          "height": 720,
+          "fill": "#10B981",
+          "stroke": "#059669",
+          "strokeWidth": 0,
+          "opacity": 1
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "number-7",
+        "type": "text",
+        "content": {
+          "text": "01",
+          "fontSize": 120,
+          "fontFamily": "Bebas Neue",
+          "color": "#FFFFFF",
+          "bold": true,
+          "italic": false,
+          "outline": true,
+          "outlineColor": "#065F46",
+          "outlineWidth": 3,
+          "shadow": false,
+          "shadowColor": "#000000",
+          "shadowBlur": 0,
+          "shadowOffset": { "x": 0, "y": 0 }
+        },
+        "position": { "x": 100, "y": 200 },
+        "size": { "width": 200, "height": 150 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      },
+      {
+        "id": "title-7",
+        "type": "text",
+        "content": {
+          "text": "COMPLETE GUIDE",
+          "fontSize": 52,
+          "fontFamily": "Inter",
+          "color": "#FFFFFF",
+          "bold": true,
+          "italic": false,
+          "outline": false,
+          "outlineColor": "#000000",
+          "outlineWidth": 0,
+          "shadow": false,
+          "shadowColor": "#000000",
+          "shadowBlur": 0,
+          "shadowOffset": { "x": 0, "y": 0 }
+        },
+        "position": { "x": 350, "y": 280 },
+        "size": { "width": 800, "height": 80 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "Id": 8,
+    "name": "Lifestyle Content",
+    "category": "General",
+    "description": "Elegant template for lifestyle and wellness content",
+    "thumbnail": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-8",
+        "type": "image",
+        "content": {
+          "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1280&h=720&fit=crop&crop=entropy&auto=format",
+          "alt": "Lifestyle background"
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "overlay-8",
+        "type": "shape",
+        "content": {
+          "shapeType": "rectangle",
+          "width": 1280,
+          "height": 720,
+          "fill": "#F3F4F6",
+          "stroke": "#F3F4F6",
+          "strokeWidth": 0,
+          "opacity": 0.8
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      },
+      {
+        "id": "title-8",
+        "type": "text",
+        "content": {
+          "text": "Lifestyle Tips",
+          "fontSize": 64,
+          "fontFamily": "Inter",
+          "color": "#1F2937",
+          "bold": true,
+          "italic": false,
+          "outline": false,
+          "outlineColor": "#000000",
+          "outlineWidth": 0,
+          "shadow": false,
+          "shadowColor": "#000000",
+          "shadowBlur": 0,
+          "shadowOffset": { "x": 0, "y": 0 }
+        },
+        "position": { "x": 200, "y": 320 },
+        "size": { "width": 880, "height": 100 },
+        "rotation": 0,
+        "zIndex": 2,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "name": "Retro Gaming",
+    "category": "Gaming",
+    "description": "Nostalgic template with retro gaming vibes",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-9",
+        "type": "shape",
+        "content": {
+          "shapeType": "rectangle",
+          "width": 1280,
+          "height": 720,
+          "fill": "#7C3AED",
+          "stroke": "#5B21B6",
+          "strokeWidth": 0,
+          "opacity": 1
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "title-9",
+        "type": "text",
+        "content": {
+          "text": "RETRO GAMING",
+          "fontSize": 72,
+          "fontFamily": "Courier New",
+          "color": "#00FF41",
+          "bold": true,
+          "italic": false,
+          "outline": true,
+          "outlineColor": "#000000",
+          "outlineWidth": 2,
+          "shadow": true,
+          "shadowColor": "#4C1D95",
+          "shadowBlur": 8,
+          "shadowOffset": { "x": 4, "y": 4 }
+        },
+        "position": { "x": 180, "y": 280 },
+        "size": { "width": 920, "height": 120 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "Id": 10,
+    "name": "Travel Vlog",
+    "category": "Vlog",
+    "description": "Adventure-ready template for travel content",
+    "thumbnail": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-10",
+        "type": "image",
+        "content": {
+          "url": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1280&h=720&fit=crop&crop=entropy&auto=format",
+          "alt": "Travel background"
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "title-10",
+        "type": "text",
+        "content": {
+          "text": "TRAVEL ADVENTURE",
+          "fontSize": 60,
+          "fontFamily": "Bebas Neue",
+          "color": "#FFFFFF",
+          "bold": true,
+          "italic": false,
+          "outline": true,
+          "outlineColor": "#F59E0B",
+          "outlineWidth": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10,
+          "shadowOffset": { "x": 5, "y": 5 }
+        },
+        "position": { "x": 120, "y": 500 },
+        "size": { "width": 800, "height": 100 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "Id": 11,
+    "name": "Quick Tutorial",
+    "category": "Tutorial",
+    "description": "Fast-paced tutorial template with urgency",
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-11",
+        "type": "shape",
+        "content": {
+          "shapeType": "rectangle",
+          "width": 1280,
+          "height": 720,
+          "fill": "#DC2626",
+          "stroke": "#B91C1C",
+          "strokeWidth": 0,
+          "opacity": 1
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "time-11",
+        "type": "text",
+        "content": {
+          "text": "5 MIN",
+          "fontSize": 48,
+          "fontFamily": "Bebas Neue",
+          "color": "#FEF3C7",
+          "bold": true,
+          "italic": false,
+          "outline": true,
+          "outlineColor": "#92400E",
+          "outlineWidth": 2,
+          "shadow": false,
+          "shadowColor": "#000000",
+          "shadowBlur": 0,
+          "shadowOffset": { "x": 0, "y": 0 }
+        },
+        "position": { "x": 100, "y": 100 },
+        "size": { "width": 200, "height": 80 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      },
+      {
+        "id": "title-11",
+        "type": "text",
+        "content": {
+          "text": "QUICK TUTORIAL",
+          "fontSize": 68,
+          "fontFamily": "Bebas Neue",
+          "color": "#FFFFFF",
+          "bold": true,
+          "italic": false,
+          "outline": true,
+          "outlineColor": "#7F1D1D",
+          "outlineWidth": 3,
+          "shadow": false,
+          "shadowColor": "#000000",
+          "shadowBlur": 0,
+          "shadowOffset": { "x": 0, "y": 0 }
+        },
+        "position": { "x": 200, "y": 320 },
+        "size": { "width": 880, "height": 100 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "Id": 12,
+    "name": "Minimalist",
+    "category": "General",
+    "description": "Clean and minimal template for any content type",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-12",
+        "type": "shape",
+        "content": {
+          "shapeType": "rectangle",
+          "width": 1280,
+          "height": 720,
+          "fill": "#F9FAFB",
+          "stroke": "#F3F4F6",
+          "strokeWidth": 0,
+          "opacity": 1
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "accent-12",
+        "type": "shape",
+        "content": {
+          "shapeType": "rectangle",
+          "width": 8,
+          "height": 200,
+          "fill": "#3B82F6",
+          "stroke": "#1D4ED8",
+          "strokeWidth": 0,
+          "opacity": 1
+        },
+        "position": { "x": 100, "y": 260 },
+        "size": { "width": 8, "height": 200 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      },
+      {
+        "id": "title-12",
+        "type": "text",
+        "content": {
+          "text": "Clean & Simple",
+          "fontSize": 56,
+          "fontFamily": "Inter",
+          "color": "#1F2937",
+          "bold": true,
+          "italic": false,
+          "outline": false,
+          "outlineColor": "#000000",
+          "outlineWidth": 0,
+          "shadow": false,
+          "shadowColor": "#000000",
+          "shadowBlur": 0,
+          "shadowOffset": { "x": 0, "y": 0 }
+        },
+        "position": { "x": 150, "y": 320 },
+        "size": { "width": 800, "height": 80 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      }
+    ]
+  }
+]
