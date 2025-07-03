@@ -365,10 +365,10 @@ const DesignCanvas = () => {
         isExporting={isExporting}
       />
 
-      <div className="flex h-[calc(100vh-80px)]">
+<div className="flex flex-col lg:flex-row h-[calc(100vh-80px)]">
         {/* Left Sidebar - Tools */}
-        <div className="w-80 bg-background border-r border-gray-200 overflow-y-auto">
-          <div className="p-4 space-y-4">
+        <div className="w-full lg:w-80 bg-background border-b lg:border-b-0 lg:border-r border-gray-200 overflow-y-auto max-h-64 lg:max-h-none">
+          <div className="p-2 sm:p-4 space-y-2 sm:space-y-4">
             <TextToolPanel
               onAddText={handleAddText}
               selectedLayer={selectedLayer}
@@ -397,15 +397,15 @@ const DesignCanvas = () => {
           </div>
         </div>
 
-        {/* Main Canvas Area */}
-        <div className="flex-1 flex items-center justify-center p-8">
-          <div className="relative">
+{/* Main Canvas Area */}
+        <div className="flex-1 flex items-center justify-center p-2 sm:p-4 lg:p-8">
+          <div className="relative w-full max-w-4xl">
             <div
               ref={canvasRef}
-              className="canvas-container relative bg-white shadow-2xl"
+              className="canvas-container relative bg-white shadow-2xl mx-auto"
               style={{
-                width: displayWidth,
-                height: displayHeight,
+                width: '100%',
+                maxWidth: `${displayWidth}px`,
                 aspectRatio: '16/9'
               }}
               onClick={() => setSelectedLayer(null)}
@@ -424,9 +424,9 @@ const DesignCanvas = () => {
             </div>
             
             {/* Canvas Info */}
-            <div className="absolute -bottom-8 left-0 right-0 flex justify-center">
-              <div className="bg-white px-4 py-2 rounded-full shadow-lg border border-gray-200">
-                <span className="text-sm text-gray-600 font-medium">
+            <div className="absolute -bottom-6 sm:-bottom-8 left-0 right-0 flex justify-center">
+              <div className="bg-white px-2 sm:px-4 py-1 sm:py-2 rounded-full shadow-lg border border-gray-200">
+                <span className="text-xs sm:text-sm text-gray-600 font-medium">
                   1280 × 720 pixels • YouTube Thumbnail Size
                 </span>
               </div>

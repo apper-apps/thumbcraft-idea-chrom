@@ -681,6 +681,515 @@
         "zIndex": 1,
         "visible": true
       }
+]
+  },
+  {
+    "Id": 13,
+    "name": "Food Recipe",
+    "category": "General",
+    "description": "Appetizing template perfect for cooking and recipe content",
+    "thumbnail": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-13",
+        "type": "image",
+        "content": {
+          "url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1280&h=720&fit=crop&crop=entropy&auto=format",
+          "alt": "Food background"
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "overlay-13",
+        "type": "shape",
+        "content": {
+          "shapeType": "rectangle",
+          "width": 1280,
+          "height": 720,
+          "fill": "#000000",
+          "stroke": "#000000",
+          "strokeWidth": 0,
+          "opacity": 0.3
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      },
+      {
+        "id": "title-13",
+        "type": "text",
+        "content": {
+          "text": "DELICIOUS RECIPE",
+          "fontSize": 58,
+          "fontFamily": "Bebas Neue",
+          "color": "#FFFFFF",
+          "bold": true,
+          "italic": false,
+          "outline": true,
+          "outlineColor": "#F59E0B",
+          "outlineWidth": 3,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 8,
+          "shadowOffset": { "x": 4, "y": 4 }
+        },
+        "position": { "x": 150, "y": 300 },
+        "size": { "width": 800, "height": 80 },
+        "rotation": 0,
+        "zIndex": 2,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "Id": 14,
+    "name": "Music Cover",
+    "category": "General",
+    "description": "Vibrant template for music content and covers",
+    "thumbnail": "https://images.unsplash.com/photo-1533563906091-fdfdffc3e3c4?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-14",
+        "type": "shape",
+        "content": {
+          "shapeType": "rectangle",
+          "width": 1280,
+          "height": 720,
+          "fill": "#1F2937",
+          "stroke": "#111827",
+          "strokeWidth": 0,
+          "opacity": 1
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "accent-14",
+        "type": "shape",
+        "content": {
+          "shapeType": "circle",
+          "width": 300,
+          "height": 300,
+          "fill": "#8B5CF6",
+          "stroke": "#7C3AED",
+          "strokeWidth": 3,
+          "opacity": 0.8
+        },
+        "position": { "x": 100, "y": 200 },
+        "size": { "width": 300, "height": 300 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      },
+      {
+        "id": "title-14",
+        "type": "text",
+        "content": {
+          "text": "MUSIC VIBES",
+          "fontSize": 64,
+          "fontFamily": "Bebas Neue",
+          "color": "#FFFFFF",
+          "bold": true,
+          "italic": false,
+          "outline": false,
+          "outlineColor": "#000000",
+          "outlineWidth": 0,
+          "shadow": true,
+          "shadowColor": "#8B5CF6",
+          "shadowBlur": 15,
+          "shadowOffset": { "x": 3, "y": 3 }
+        },
+        "position": { "x": 500, "y": 320 },
+        "size": { "width": 700, "height": 80 },
+        "rotation": 0,
+        "zIndex": 2,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "Id": 15,
+    "name": "Fitness Motivation",
+    "category": "General",
+    "description": "Energetic template for fitness and workout content",
+    "thumbnail": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-15",
+        "type": "image",
+        "content": {
+          "url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1280&h=720&fit=crop&crop=entropy&auto=format",
+          "alt": "Fitness background"
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "title-15",
+        "type": "text",
+        "content": {
+          "text": "GET FIT NOW",
+          "fontSize": 72,
+          "fontFamily": "Bebas Neue",
+          "color": "#FFFFFF",
+          "bold": true,
+          "italic": false,
+          "outline": true,
+          "outlineColor": "#DC2626",
+          "outlineWidth": 4,
+          "shadow": true,
+          "shadowColor": "#000000",
+          "shadowBlur": 10,
+          "shadowOffset": { "x": 5, "y": 5 }
+        },
+        "position": { "x": 150, "y": 100 },
+        "size": { "width": 700, "height": 100 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "Id": 16,
+    "name": "Business Professional",
+    "category": "General",
+    "description": "Corporate template for business and professional content",
+    "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-16",
+        "type": "shape",
+        "content": {
+          "shapeType": "rectangle",
+          "width": 1280,
+          "height": 720,
+          "fill": "#1E293B",
+          "stroke": "#0F172A",
+          "strokeWidth": 0,
+          "opacity": 1
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "accent-16",
+        "type": "shape",
+        "content": {
+          "shapeType": "rectangle",
+          "width": 400,
+          "height": 8,
+          "fill": "#0EA5E9",
+          "stroke": "#0284C7",
+          "strokeWidth": 0,
+          "opacity": 1
+        },
+        "position": { "x": 150, "y": 380 },
+        "size": { "width": 400, "height": 8 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      },
+      {
+        "id": "title-16",
+        "type": "text",
+        "content": {
+          "text": "BUSINESS SUCCESS",
+          "fontSize": 56,
+          "fontFamily": "Inter",
+          "color": "#FFFFFF",
+          "bold": true,
+          "italic": false,
+          "outline": false,
+          "outlineColor": "#000000",
+          "outlineWidth": 0,
+          "shadow": false,
+          "shadowColor": "#000000",
+          "shadowBlur": 0,
+          "shadowOffset": { "x": 0, "y": 0 }
+        },
+        "position": { "x": 150, "y": 280 },
+        "size": { "width": 800, "height": 80 },
+        "rotation": 0,
+        "zIndex": 2,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "Id": 17,
+    "name": "Art & Creativity",
+    "category": "General",
+    "description": "Colorful template for art and creative content",
+    "thumbnail": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-17",
+        "type": "image",
+        "content": {
+          "url": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=1280&h=720&fit=crop&crop=entropy&auto=format",
+          "alt": "Art background"
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "overlay-17",
+        "type": "shape",
+        "content": {
+          "shapeType": "rectangle",
+          "width": 1280,
+          "height": 720,
+          "fill": "#FFFFFF",
+          "stroke": "#FFFFFF",
+          "strokeWidth": 0,
+          "opacity": 0.7
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      },
+      {
+        "id": "title-17",
+        "type": "text",
+        "content": {
+          "text": "Creative Art",
+          "fontSize": 68,
+          "fontFamily": "Inter",
+          "color": "#1F2937",
+          "bold": true,
+          "italic": true,
+          "outline": false,
+          "outlineColor": "#000000",
+          "outlineWidth": 0,
+          "shadow": true,
+          "shadowColor": "#EC4899",
+          "shadowBlur": 12,
+          "shadowOffset": { "x": 6, "y": 6 }
+        },
+        "position": { "x": 200, "y": 320 },
+        "size": { "width": 600, "height": 100 },
+        "rotation": 0,
+        "zIndex": 2,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "Id": 18,
+    "name": "Space Explorer",
+    "category": "General",
+    "description": "Cosmic template for space and science content",
+    "thumbnail": "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-18",
+        "type": "image",
+        "content": {
+          "url": "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?w=1280&h=720&fit=crop&crop=entropy&auto=format",
+          "alt": "Space background"
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "title-18",
+        "type": "text",
+        "content": {
+          "text": "SPACE DISCOVERY",
+          "fontSize": 64,
+          "fontFamily": "Bebas Neue",
+          "color": "#FFFFFF",
+          "bold": true,
+          "italic": false,
+          "outline": true,
+          "outlineColor": "#3B82F6",
+          "outlineWidth": 3,
+          "shadow": true,
+          "shadowColor": "#1E40AF",
+          "shadowBlur": 15,
+          "shadowOffset": { "x": 5, "y": 5 }
+        },
+        "position": { "x": 150, "y": 500 },
+        "size": { "width": 900, "height": 100 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "Id": 19,
+    "name": "Gaming Stream",
+    "category": "Gaming",
+    "description": "Dynamic template for live gaming streams",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-19",
+        "type": "shape",
+        "content": {
+          "shapeType": "rectangle",
+          "width": 1280,
+          "height": 720,
+          "fill": "#0F0F0F",
+          "stroke": "#000000",
+          "strokeWidth": 0,
+          "opacity": 1
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "accent1-19",
+        "type": "shape",
+        "content": {
+          "shapeType": "rectangle",
+          "width": 20,
+          "height": 720,
+          "fill": "#00FF41",
+          "stroke": "#00CC33",
+          "strokeWidth": 0,
+          "opacity": 1
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 20, "height": 720 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      },
+      {
+        "id": "accent2-19",
+        "type": "shape",
+        "content": {
+          "shapeType": "rectangle",
+          "width": 20,
+          "height": 720,
+          "fill": "#FF0080",
+          "stroke": "#CC0066",
+          "strokeWidth": 0,
+          "opacity": 1
+        },
+        "position": { "x": 1260, "y": 0 },
+        "size": { "width": 20, "height": 720 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      },
+      {
+        "id": "title-19",
+        "type": "text",
+        "content": {
+          "text": "LIVE STREAM",
+          "fontSize": 80,
+          "fontFamily": "Courier New",
+          "color": "#00FF41",
+          "bold": true,
+          "italic": false,
+          "outline": true,
+          "outlineColor": "#000000",
+          "outlineWidth": 3,
+          "shadow": true,
+          "shadowColor": "#FF0080",
+          "shadowBlur": 20,
+          "shadowOffset": { "x": 8, "y": 8 }
+        },
+        "position": { "x": 200, "y": 280 },
+        "size": { "width": 880, "height": 160 },
+        "rotation": 0,
+        "zIndex": 2,
+        "visible": true
+      }
+    ]
+  },
+  {
+    "Id": 20,
+    "name": "Wellness Journey",
+    "category": "Vlog",
+    "description": "Peaceful template for wellness and mindfulness content",
+    "thumbnail": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=225&fit=crop&crop=entropy&auto=format",
+    "layers": [
+      {
+        "id": "bg-20",
+        "type": "image",
+        "content": {
+          "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1280&h=720&fit=crop&crop=entropy&auto=format",
+          "alt": "Wellness background"
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 0,
+        "visible": true
+      },
+      {
+        "id": "overlay-20",
+        "type": "shape",
+        "content": {
+          "shapeType": "rectangle",
+          "width": 1280,
+          "height": 720,
+          "fill": "#F0FDF4",
+          "stroke": "#F0FDF4",
+          "strokeWidth": 0,
+          "opacity": 0.6
+        },
+        "position": { "x": 0, "y": 0 },
+        "size": { "width": 1280, "height": 720 },
+        "rotation": 0,
+        "zIndex": 1,
+        "visible": true
+      },
+      {
+        "id": "title-20",
+        "type": "text",
+        "content": {
+          "text": "Wellness Journey",
+          "fontSize": 52,
+          "fontFamily": "Inter",
+          "color": "#065F46",
+          "bold": true,
+          "italic": false,
+          "outline": false,
+          "outlineColor": "#000000",
+          "outlineWidth": 0,
+          "shadow": true,
+          "shadowColor": "#FFFFFF",
+          "shadowBlur": 5,
+          "shadowOffset": { "x": 2, "y": 2 }
+        },
+        "position": { "x": 150, "y": 320 },
+        "size": { "width": 700, "height": 80 },
+        "rotation": 0,
+        "zIndex": 2,
+        "visible": true
+      }
     ]
   }
 ]

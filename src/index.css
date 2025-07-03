@@ -37,12 +37,17 @@ body {
   background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.1) 50%, transparent 70%);
   pointer-events: none;
 }
-
 .tool-panel {
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   border: 1px solid #E5E5E5;
+}
+
+.shape-item {
+  min-width: 44px;
+  min-height: 44px;
+  transition: all 0.2s ease;
 }
 
 .shape-item:hover {
@@ -51,11 +56,25 @@ body {
   color: white;
 }
 
+/* Touch-friendly interactions */
+@media (hover: none) and (pointer: coarse) {
+  .shape-item:hover {
+    transform: none;
+  }
+  
+  .shape-item:active {
+    transform: scale(0.95);
+    background: linear-gradient(135deg, #FF0000, #FF4444);
+    color: white;
+  }
+}
+
 .layer-item {
   background: white;
   border: 1px solid #E5E5E5;
   border-radius: 6px;
   transition: all 0.2s ease;
+  min-height: 44px;
 }
 
 .layer-item:hover {
@@ -63,10 +82,23 @@ body {
   box-shadow: 0 2px 4px rgba(255, 0, 0, 0.1);
 }
 
+@media (hover: none) and (pointer: coarse) {
+  .layer-item:hover {
+    border-color: #E5E5E5;
+    box-shadow: none;
+  }
+  
+  .layer-item:active {
+    border-color: #FF0000;
+    box-shadow: 0 2px 4px rgba(255, 0, 0, 0.1);
+  }
+}
+
 .generate-btn {
   background: linear-gradient(135deg, #FF0000, #FF4444);
   position: relative;
   overflow: hidden;
+  min-height: 44px;
 }
 
 .generate-btn::before {
@@ -82,6 +114,16 @@ body {
 
 .generate-btn:hover::before {
   left: 100%;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .generate-btn:hover::before {
+    left: -100%;
+  }
+  
+  .generate-btn:active::before {
+    left: 100%;
+  }
 }
 
 .Toastify__toast-container {
@@ -125,6 +167,17 @@ body {
   box-shadow: 0 8px 24px rgba(255, 0, 0, 0.15);
 }
 
+@media (hover: none) and (pointer: coarse) {
+  .template-card:hover {
+    transform: none;
+  }
+  
+  .template-card:active {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(255, 0, 0, 0.1);
+  }
+}
+
 .ai-result-card {
   transition: all 0.2s ease;
   cursor: pointer;
@@ -133,4 +186,37 @@ body {
 .ai-result-card:hover {
   transform: scale(1.02);
   box-shadow: 0 4px 12px rgba(0, 212, 255, 0.2);
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .ai-result-card:hover {
+    transform: none;
+  }
+  
+  .ai-result-card:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 6px rgba(0, 212, 255, 0.15);
+  }
+}
+
+/* Responsive canvas scaling */
+@media (max-width: 768px) {
+  .canvas-container {
+    border-width: 2px;
+  }
+}
+
+@media (max-width: 480px) {
+  .canvas-container {
+    border-width: 1px;
+    border-radius: 4px;
+  }
+}
+
+/* Mobile-friendly button sizing */
+@media (max-width: 768px) {
+  button, .clickable {
+    min-height: 44px;
+    min-width: 44px;
+  }
 }

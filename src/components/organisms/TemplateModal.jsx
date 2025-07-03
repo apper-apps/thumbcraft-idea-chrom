@@ -59,11 +59,11 @@ const TemplateModal = ({ isOpen, onClose, onSelectTemplate }) => {
         className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4"
         onClick={onClose}
       >
-        <motion.div
+<motion.div
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           exit={{ scale: 0.9, opacity: 0 }}
-          className="bg-white rounded-2xl shadow-2xl max-w-6xl w-full max-h-[90vh] overflow-hidden"
+          className="bg-white rounded-2xl shadow-2xl max-w-6xl w-full max-h-[90vh] mx-4 sm:mx-0 overflow-hidden"
           onClick={(e) => e.stopPropagation()}
         >
           <div className="flex items-center justify-between p-6 border-b border-gray-200">
@@ -80,23 +80,22 @@ const TemplateModal = ({ isOpen, onClose, onSelectTemplate }) => {
             />
           </div>
 
-          <div className="p-6">
+<div className="p-4 sm:p-6">
             <div className="flex flex-wrap gap-2 mb-6">
               {categories.map((category) => (
                 <button
                   key={category}
                   onClick={() => setSelectedCategory(category)}
-                  className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                  className={`px-3 sm:px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 min-h-touch ${
                     selectedCategory === category
                       ? 'bg-gradient-to-r from-primary to-red-600 text-white shadow-lg'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200 active:bg-gray-300'
                   }`}
                 >
                   {category}
                 </button>
               ))}
             </div>
-
             <div className="max-h-96 overflow-y-auto">
               {loading && <Loading />}
 
@@ -116,8 +115,8 @@ const TemplateModal = ({ isOpen, onClose, onSelectTemplate }) => {
                 />
               )}
 
-              {!loading && !error && filteredTemplates.length > 0 && (
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+{!loading && !error && filteredTemplates.length > 0 && (
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-4">
                   {filteredTemplates.map((template) => (
                     <TemplateCard
                       key={template.Id}
